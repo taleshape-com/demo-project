@@ -20,12 +20,12 @@ serve: ## Run shaper server with local data dir
 
 .PHONY: dev
 dev: ## Run shaper dev
-	$(SHAPER) -d .shaperdata dev
+	$(SHAPER) dev
 
 .PHONY: pull
 pull: ## Run shaper pull
-	$(SHAPER) -d .shaperdata pull
+	$(SHAPER) pull
 
 .PHONY: deploy
 deploy: ## Run shaper deploy
-	$(SHAPER) -d .shaperdata deploy
+	$(SHAPER) deploy

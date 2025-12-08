@@ -1,6 +1,6 @@
 # Demo Project Setup
 
-This is a demo project to showcase how to use Shaper's file-based workflow to develop and deploy dashboards.
+This is a demo project to showcase how to use [Shaper](github.com/taleshape-com/shaper) with a file-based workflow to develop and deploy dashboards.
 
 The project uses Python's package manager `pip` to install the `shaper` binary.
 

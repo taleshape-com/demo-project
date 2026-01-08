@@ -61,11 +61,6 @@ The format adapts to display longer text.
 
 This might be useful to add some description below or next to a graphic.';
 
-SELECT ''::SECTION;
-
-SELECT 'LINK'::LABEL;
-SELECT 'https://taleshape.com';
-
 
 SELECT 'Tables'::SECTION;
 

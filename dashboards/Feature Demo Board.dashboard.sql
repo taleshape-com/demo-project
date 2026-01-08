@@ -25,7 +25,7 @@ CREATE TEMP VIEW category_data AS (
 SELECT 'https://taleshape.com/images/logo-h36.webp'::HEADER_IMAGE;
 
 
-SELECT 'Dashboard Title'::SECTION;
+SELECT 'Shaper Feature Demo Board'::SECTION;
 
 
 SELECT ('myboard-' || today())::DOWNLOAD_PDF AS "PDF";
@@ -38,7 +38,7 @@ SELECT ('mydata-' || today())::DOWNLOAD_XLSX AS "Excel";
 SELECT * FROM timestamp_data;
 
 
-SELECT 'Welcome to the Shaper Feature Demo Board' AS 'The SQL is here on Github: https://github.com/taleshape-com/demo-project';
+SELECT 'Welcome!' AS 'The SQL is here on Github: https://github.com/taleshape-com/demo-project';
 
 
 SELECT 'Single Value'::SECTION;

@@ -2,7 +2,7 @@ PYTHON := python
 VENV := .venv
 PIP := $(VENV)/bin/pip
 SHAPER := $(VENV)/bin/shaper
-SHAPER_VERSION ?= 0.12.6
+SHAPER_VERSION ?= 0.13.0
 
 .PHONY: install
 install: ## Create venv (if needed) and install pinned shaper-bin
